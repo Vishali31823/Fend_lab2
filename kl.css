@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  text-align:center;
+  background-color: #002147;
+  color: #fff;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  background-color: #0b3360;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.campus-banner {
+  position: relative;
+  text-align: center;
+}
+
+.campus-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.campus-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .campus-text {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  header, footer {
+    text-align: center;
+  }
+
+  nav {
+    font-size: 14px;
+  }
+}
+
+
