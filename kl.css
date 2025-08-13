@@ -10,7 +10,9 @@ body {
 }
 
 header {
+  display: flex; 
   text-align:center;
+  justify-content: space-between;
   background-color: #002147;
   color: #fff;
   padding: 20px;
@@ -20,6 +22,8 @@ header {
 }
 
 nav {
+  display: flex; 
+  justify-content: space-between;
   background-color: #0b3360;
   margin-top: 10px;
   font-size: 16px;
